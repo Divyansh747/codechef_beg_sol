@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+
+int X;
+float Y,Z;
+
+scanf("%d %f",&X,&Y);
+//if(X<2000)&&(Y<2000){
+    if(X+0.50<Y)
+{
+         if(X%5==0)
+    {
+        Z=Y-X-0.50;
+        printf("%.2f",Z);
+    }
+         else{
+        printf("%.2f",Y);
+    }
+}
+     else{
+        printf("%.2f",Y);
+    }
+
+
+//}
+	return 0;
+}
+
